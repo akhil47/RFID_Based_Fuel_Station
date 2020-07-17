@@ -1,0 +1,235 @@
+body, html{
+	margin: 0px;
+	height: 100%;
+	background-image: url("http://www.rfid84.xyz/images/background.png");
+	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+	#Header{
+		height:96px;
+		width: 100%;
+		min-width:1152px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url("http://www.rfid84.xyz/images/Header.png");
+	}
+	#contentContainer{
+		min-height: 768px;
+		width:1152px;
+	}
+		#sideBar{
+			min-height: 768px;
+			width: 240px;
+			float: left;
+		}		
+	#contentDisplay{
+		min-height: 768px;
+		width:912px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url("http://www.rfid84.xyz/images/customerSearch2.png");
+		float:left;
+	}
+	.contentSections{
+		height: 72px;
+		width: 912px;
+		float: left;
+	}
+		.contentSubSectionLeft{
+			height: 72px;
+			width: 180px;
+			float: left;
+		}
+		.contentSubSectionMiddle{
+			height: 72px;
+			width: 2px;
+			float: left;
+		}
+		.contentSubSectionRight{
+			height: 72px;
+			width: 730px;
+			float: left;
+		}
+		.textLabels{
+			font-size: 18px;
+			font-weight: bold;
+			float:left;
+			padding-top:27px;
+			padding-bottom:27px;
+			padding-left: 24px;
+		}
+		.textSeperators{
+			font-size: 18px;
+			font-weight: bold;
+			float:left;
+			padding-top:27px;
+			padding-bottom:27px;
+		}
+		.textContent{
+			font-size: 18px;
+			float:left;
+			padding-top:27px;
+			padding-bottom:27px;
+			padding-left: 24px;
+		}
+		#recentTransactions{
+			height: 264px;
+			width: 912px;
+			float:left;
+		}
+			#title{
+				height: 32px;
+				width: 912px;
+				float:left;
+			}
+				#titleContent{
+					font-size: 18px;
+					font-weight: bold;
+					padding-top:5px;
+					padding-bottom:5px;
+					padding-left: 24px;
+				}
+			#searchResultsHeader{
+				height: 32px;
+				width:	912px;
+				float: left;
+			}
+			.headerLabels{
+				font-size: 18px;
+				font-weight: bold;
+				float: center;
+				padding-top: 7px;
+			}
+				.seperators{
+					padding-top: 4px;
+					padding-bottom: 4px;
+					height: 24px;
+					width: 1px;
+					background-color: black;
+					float:left;
+				}
+				/*width of all headers with seperators combined is 896px*/
+				#Header1{
+					height: 32px;
+					width: 148px; 
+					float: left;
+				}
+				#Header2{
+					height: 32px;
+					width: 167px; 
+					float: left;
+				}
+				#Header3{
+					height: 32px;
+					width: 148px;
+					float: left;
+				}
+				#Header4{
+					height: 32px;
+					width: 148px; 
+					float: left;
+				}
+				#Header5{
+					height: 32px;
+					width: 148px; 
+					float: left;
+				}
+				#Header6{
+					height: 32px;
+					width: 148px; 
+					float: left;
+				}
+			#searchResults{
+				height: 232px;
+				width:	912px;
+				float:left;
+			}
+				.results{
+					height:	32px;
+					width:	912px;
+					float:left;
+				}
+				.searchField1{
+					height: 32px;
+					width: 148px;
+					float: left;
+				}
+				.searchField2{
+					height: 32px;
+					width: 167px;
+					float: left;
+				}
+				.searchField3{
+					height: 32px;
+					width: 148px;
+					float: left;
+				}
+				.searchField4{
+					height: 32px;
+					width: 148px;
+					float: left;
+				}
+				.searchField5{
+					height: 32px;
+					width: 148px;
+					float: left;
+				}
+				.searchField6{
+					height: 32px;
+					width: 148px;
+					float: left;
+				}
+				.label1{
+					float: center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label2{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label3{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label4{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label5{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label6{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}

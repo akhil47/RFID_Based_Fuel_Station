@@ -1,0 +1,77 @@
+body{
+	margin: 0px;
+	height: 100%;
+	width:	100%;
+	background-image: url("http://www.rfid84.xyz/images/bgHome.png");
+	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+a.mainSideBarText:hover{
+	color: ff0000;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+	#Header{
+		height:96px;
+		width: 100%;
+		min-width: 1152px;
+	}
+	#contentContainer{
+		height: 768px;
+		width:1152px;
+	}
+		#logoSection{
+			height: 256px;
+			width: 1152px;
+		}
+		#logoBig{
+			padding-top: 64px;
+			padding-bottom: 64px;
+			padding-left: 344px;
+			padding-right: 344px;
+		}
+		#buttonSection{
+			height: 72px;
+			width:	720px;
+		}
+		.Bars{
+			height: 72px;
+			width: 240px;
+			float: left;
+			font-size:18px;
+			font-weight:bold;
+		}
+			.mainBarIconSection{
+				height: 72px;
+				width:	48px;
+				float:left;
+			}
+			.mainBarTextSection{
+				height: 72px;
+				width: 192px;
+				float:left;
+			}
+			.mainBarIcon{
+				padding-top:24px;
+				padding-bottom:24px;
+				padding-left: 12px;
+				padding-right: 12px;
+			}
+			.mainBarText{
+				float: right;
+				height: 18px;
+				padding-top: 27px;
+				padding-bottom: 27px;
+			}
+			#mainBarReg{
+				padding-right: 89px;
+			}
+			#mainBarCS{
+				padding-right: 50px;
+			}
+			#mainBarTS{
+				padding-right: 33px;
+			}

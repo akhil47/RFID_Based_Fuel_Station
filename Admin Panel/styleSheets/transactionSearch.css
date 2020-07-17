@@ -1,0 +1,290 @@
+body{
+	margin: 0px;
+	background-image: url("http://www.rfid84.xyz/images/background.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a.viewProfile:hover{
+	color: ff0000;
+}
+input::placeholder{
+	color: D4D0D0;
+	text-align: center;
+}
+	#Header{
+		height:96px;
+		width: 100%;
+		min-width: 1152px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url("http://www.rfid84.xyz/images/Header.png");
+	}
+	#contentContainer{
+		min-height: 768px;
+		width:1152px;
+	}
+		#sideBar{
+			min-height: 768px;
+			width:240px;
+			float:left;
+		}		
+	#contentDisplay{
+		min-height: 768px;
+		width:912px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url("http://www.rfid84.xyz/images/transactionSearch2.png");
+		float:left;
+	}
+	.CSsections{
+		height: 72px;
+		width: 912px;
+		float:left;
+	}
+		.subSection1{
+			height: 18px;
+			width: 912px;
+		}
+		.subSection2{
+			height: 36px;
+			width: 912px;
+		}
+		.subSection3{
+			height: 18px;
+			width: 912px;
+		}
+		.optionField{
+			height: 24px;
+			width: 912px;
+			float:left;
+		}
+			.field1{
+				height: 24px;
+				width: 152px;
+				float:left;
+			}
+			.field2{
+				height: 24px;
+				width: 152px;
+				float:left;
+			}
+			.field3{
+				height: 24px;
+				width: 76px;
+				float:left;
+			}
+			.field4{
+				height: 24px;
+				width: 152px;
+				float:left;
+			}
+			.field5{
+				height: 24px;
+				width: 76px;
+				float:left;
+			}
+			.field6{
+				height: 24px;
+				width: 152px;
+				float:left;
+			}
+			.optionLabel{
+				float: right;
+			}
+		#SS2_1{
+			float:left;
+			width: 708px;
+			height: 36px;
+		}
+		#SS2_2{
+			float:left;
+			width: 204px;
+			height: 36px;
+		}
+		#search{
+			float:right;
+			height:	36px;
+			width:	512px;
+			padding: 4px;
+		}
+		#searchButton{
+			float: center;
+		}
+		#spaceBar{
+			height: 24px;
+			width:	912px;
+			float:	left;
+		}
+		#space{
+			height: 2px;
+			width: 912px;
+			float:left;
+		}
+		#searchResultsSection{
+			height: 478px;
+			width:	912px;
+			float:left;
+		}
+			#searchResultsHeader{
+				height: 32px;
+				width:	912px;
+				float: left;
+			}
+			.headerLabels{
+				font-size: 18px;
+				font-weight: bold;
+				float: center;
+				padding-top: 7px;
+			}
+				.seperators{
+					padding-top: 4px;
+					padding-bottom: 4px;
+					height: 24px;
+					width: 1px;
+					background-color: grey;
+					float:left;
+				}
+				/*width of all headers with seperators combined is 896px*/
+				#Header1{
+					height: 32px;
+					width: 119px;
+					float: left;
+				}
+				#Header2{
+					height: 32px;
+					width: 171px;
+					float: left;
+				}
+				#Header3{
+					height: 32px;
+					width: 176px;
+					float: left;
+				}
+				#Header4{
+					height: 32px;
+					width: 167px;
+					float: left;
+				}
+				#Header5{
+					height: 32px;
+					width: 67px;
+					float: left;
+				}
+				#Header6{
+					height: 32px;
+					width: 95px;
+					float: left;
+				}
+				#Header7{
+					height: 32px;
+					width: 95px;
+					float: left;
+				}
+			#searchResults{
+				height: 446px;
+				width:	912px;
+				overflow-y:scroll;
+				float:left;
+			}
+				.results{
+					height:	32px;
+					width:	895px;
+					float:left;
+				}
+				.searchField1{
+					height: 32px;
+					width: 119px;
+					float: left;
+				}
+				.searchField2{
+					height: 32px;
+					width: 171px;
+					float: left;
+				}
+				.searchField3{
+					height: 32px;
+					width: 176px;
+					float: left;
+				}
+				.searchField4{
+					height: 32px;
+					width: 167px;
+					float: left;
+				}
+				.searchField5{
+					height: 32px;
+					width: 67px;
+					float: left;
+				}
+				.searchField6{
+					height: 32px;
+					width: 95px;
+					float: left;
+				}
+				.searchField7{
+					height: 32px;
+					width: 94px;
+					float: left;
+				}
+				.label1{
+					float: center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label2{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label3{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label4{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label5{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label6{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label7{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}

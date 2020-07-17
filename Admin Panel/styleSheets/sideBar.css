@@ -1,0 +1,32 @@
+a.sideBarText:hover{
+	color: ff0000;
+}
+.Bar{
+	height: 72px;
+	width: 240px;
+	float: top;
+	font-size:18px;
+	font-weight:bold;
+}
+.BarIcon{
+	padding-top:24px;
+	padding-bottom: 24px;
+	padding-left: 16px;
+	padding-right:16px;
+	float:left;
+}
+.sideBar{
+	float: right;
+	height: 18px;
+	padding-top: 27px;
+	padding-bottom: 27px;
+}
+#sideBarReg{
+	padding-right: 89px;
+}
+#sideBarCS{
+	padding-right: 50px;
+}
+#sideBarTS{
+	padding-right: 33px;
+}

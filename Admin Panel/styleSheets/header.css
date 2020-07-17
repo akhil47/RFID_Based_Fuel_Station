@@ -1,0 +1,30 @@
+.headerText{
+	height: 24px;
+	padding-top:36px;
+	padding-bottom:36px;
+	padding-right:36px;
+	font-size:24px;
+	font-weight:bold;
+	float:right;
+}
+a.headerText:hover{
+	color: ff0000;
+}
+#adminButton{
+	padding-top: 32px;
+	padding-bottom: 32px;
+	padding-right:36px;
+	float:right;
+}
+#homeButton{
+	padding-top: 36px;
+	padding-bottom: 36px;
+	padding-right:36px;
+	float:right;
+}
+#logo{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 36px;
+	float:left;
+}

@@ -1,0 +1,183 @@
+body{
+	margin: 0px;
+	background-image: url("http://www.rfid84.xyz/images/background.png");
+	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a.viewProfile:hover{
+	color: ff0000;
+}
+input::placeholder{
+	color: D4D0D0;
+}
+	#Header{
+		height:96px;
+		width: 100%;
+		min-width: 1152px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url("http://www.rfid84.xyz/images/Header.png");
+	}
+	#contentContainer{
+		min-height: 768px;
+		width:1152px;
+	}
+		#sideBar{
+			min-height: 768px;
+			width:240px;
+			float:left;
+		}		
+	#contentDisplay{
+		min-height: 768px;
+		width:912px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url("http://www.rfid84.xyz/images/customerSearch2.png");
+		float:left;
+	}
+	.CSsections{
+		height: 72px;
+		width: 912px;
+	}
+		.subSection1{
+			height: 18px;
+			width: 912px;
+		}
+		.subSection2{
+			height: 36px;
+			width: 912px;
+		}
+		.subSection3{
+			height: 18px;
+			width: 912px;
+		}
+			#SS2_1{
+				float:left;
+				width: 708px;
+				height: 36px;
+			}
+			#SS2_2{
+				float:left;
+				width: 204px;
+				height: 36px;
+			}
+			#search{
+				float:right;
+				height:	36px;
+				width:	512px;
+				padding: 4px;
+			}
+			#searchButton{
+				float: center;
+			}
+		#searchResultsSection{
+			height: 552px;
+			width:	912px;
+		}
+			#searchResultsHeader{
+				height: 32px;
+				width:	912px;
+				float: left;
+			}
+			.headerLabels{
+				font-size: 18px;
+				font-weight: bold;
+				float: center;
+				padding-top: 7px;
+			}
+				.seperators{
+					padding-top: 4px;
+					padding-bottom: 4px;
+					height: 24px;
+					width: 1px;
+					background-color: grey;
+					float:left;
+				}
+				#Header1{
+					height: 32px;
+					width: 444px;
+					float: left;
+				}
+				#Header2{
+					height: 32px;
+					width: 165px;
+					float: left;
+				}
+				#Header3{
+					height: 32px;
+					width: 150px;
+					float: left;
+				}
+				#Header4{
+					height: 32px;
+					width: 150px;
+					float: left;
+				}
+			#searchResults{
+				height: 520px;
+				width:	912px;
+				float:left;
+			}
+				.results{
+					height:	32px;
+					width:	912px;
+					float:left;
+				}
+				.field1{
+					height: 32px;
+					width: 444px;
+					float: left;
+				}
+				.field2{
+					height: 32px;
+					width: 165px;
+					float: left;
+				}
+				.field3{
+					height: 32px;
+					width: 150px;
+					float: left;
+				}
+				.field4{
+					height: 32px;
+					width: 150px;
+					float: left;
+				}
+				.label1{
+					float: center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label2{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label3{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.label4{
+					float:center;
+					font-size: 16px;
+					padding-left: 0px;
+					padding-right: 0px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}

@@ -1,0 +1,79 @@
+body{
+	margin: 0px;
+	height: 100%;
+	width:	100%;
+	background-image: url("http://www.rfid84.xyz/images/bgHome.png");
+	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+	#contentContainer{
+		height: 768px;
+		width:1152px;
+	}
+		#logoSection{
+			height: 256px;
+			width: 1152px;
+		}
+		#logoBig{
+			padding-top: 64px;
+			padding-bottom: 64px;
+			padding-left: 344px;
+			padding-right: 344px;
+		}
+		#loginFormOuterContainer{
+			width: 1152px;
+			height: 256px;
+		}
+			#loginFormInnerContainer1{
+				width: 444px;
+				height: 256px;
+				float: left;
+			}
+			#loginFormInnerContainer2{
+				width: 264px;
+				height: 256px;
+				float: left;
+			}
+				#errorSpan{
+					font-size: 14px;
+					color:red;
+				}
+				.loginLabel{
+					width: 264px;
+					height: 24px;
+					float: left;
+				}
+				.loginInput{
+					width: 264px;
+					height: 24px;
+					float: left;
+				}
+				.inputAdmin{
+					width: 264px;
+					height: 24px;
+					float: left;
+					padding-left: 2px;
+					padding-right: 2px;
+				}
+				.inputLabels{
+					font-size: 14px;
+					font-weight: bold;
+					float:left;
+					padding-top:5px;
+					padding-bottom:5px;
+				}
+				#loginSubmit{
+					width: 264px;
+					height: 48px;
+					float: left;
+				}
+				#submitButton{
+					padding-top: 12px;
+				}
+			#loginFormInnerContainer3{
+				width: 444px;
+				height: 256px;
+				float: left;
+			}
+		

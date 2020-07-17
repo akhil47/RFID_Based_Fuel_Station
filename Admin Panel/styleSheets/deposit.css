@@ -1,0 +1,166 @@
+body, html{
+	margin: 0px;
+	height: 100%;
+	background-image: url("http://www.rfid84.xyz/images/background.png");
+	background-position: center;
+   	background-repeat: no-repeat;
+    	background-size: cover;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+	#Header{
+		height:96px;
+		width: 100%;
+		min-width:1152px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url("http://www.rfid84.xyz/images/Header.png");
+	}
+	#contentContainer{
+		min-height: 768px;
+		width:1152px;
+	}
+		#sideBar{
+			min-height: 768px;
+			width: 240px;
+			float: left;
+		}		
+	#contentDisplay{
+		min-height: 768px;
+		width:912px;
+		float:left;
+	}
+	#depositHeader{
+			height: 72px;
+			width: 912px;
+		}
+			#depositPostMessageSection1{
+				height: 18px;
+				width: 912px;
+			}
+			#depositPostMessageSection2{
+				height: 36px;
+				width: 912px;
+				font-size: 36px;
+			}
+			#depositPostMessageSection3{
+				height: 18px;
+				width: 912px;
+			}
+			#depositHeaderText{
+				font-size: 36px;
+				font-weight: bold;
+				height: 36px;
+				float: left;
+				padding: 18px;
+			}
+		.depositFormSections{
+				height: 72px;
+				width: 912px;
+				float:left;
+		}
+		.sectionsLeft{
+			float: left;
+			height: 72px;
+			width: 300px;
+		}
+			.subSectionsLeft1{
+				float: left;
+				height: 18px;
+				width: 300px;
+			}
+			.subSectionsLeft2{
+				float: left;
+				height: 36px;
+				width: 300px;
+			}
+				.spaceL{
+					float:left;
+					height: 36px;
+					width: 24px;
+				}
+				.fieldSpaceL{
+					float:left;
+					height: 36px;
+					width: 276px;
+				}
+					.spaceBarL{
+						float:left;
+						height: 6px;
+						width: 276px;
+					}
+					.inputFieldL{
+						float:left;
+						height: 24px;
+						width: 276px;
+					}
+			.subSectionsLeft3{
+				float: left;
+				height: 18px;
+				width: 300px;
+			}
+		.sectionsRight{
+			float: left;
+			height: 72px;
+			width: 612px;
+		}
+			.subSectionsRight1{
+				float: left;
+				height: 18px;
+				width: 612px;
+			}
+			.subSectionsRight2{
+				float: left;
+				height: 36px;
+				width: 612px;
+			}
+				.fieldSpaceR{
+					float:left;
+					height: 36px;
+					width: 612px;
+				}
+					.spaceBarR{
+						float:left;
+						height: 6px;
+						width: 612px;
+					}
+					.inputFieldR{
+						float:left;
+						height: 24px;
+						width: 612px;
+					}
+			.subSectionsRight3{
+				float: left;
+				height: 18px;
+				width: 612px;
+			}
+		.depositFields{
+			height: 24px;
+			width: 256px;
+			float: left;
+			padding-left: 2px;
+			padding-right: 2px;
+		}
+		.depositLabels{
+			font-size: 14px;
+			font-weight: bold;
+			float:left;
+			padding-top:1px;
+			padding-bottom:1px;
+			padding-left: 24px;
+			
+		}
+			#deposit{
+				float:left;
+			}
+		.error{
+			float:left;
+			color: red;
+			font-size: 14px;
+			padding-top: 5px;
+			padding-bottom:5px;
+			
+		}
